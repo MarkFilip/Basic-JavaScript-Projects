@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./CSS/Basic_CSS_1.css">
+    </head>
+    <body>
+        <!--Slide Holder-->
+        <div class="Container">
+            
+            <!--Slides-->
+            <div class="Slide fade">
+                <img src="./images/slide_1.jpg" alt="Mountain view from a dock">
+            </div>
+
+            <div class="Slide fade">
+                <img src="./images/slide_2.jpg" alt="Mountain Road">
+            </div>
+
+            <div class="Slide fade">
+                <img src="./images/slide_3.jpg" alt="Mountain-side village">
+            </div>
+
+            <div class="Slide fade">
+                <img src="./images/slide_4.jpg" alt="Mountain and the stars">
+            </div>
+            <!--End Slides-->
+
+            <!--Buttons on the side-->
+            <div class="Buttons">
+                <a class="prev" onclick="plusSlides(-1)">&#x02AA6</a>
+                <a class="next" onclick="plusSlides(1)">&#x02AA7</a>
+            </div>
+            <!--End buttons-->
+
+        </div>
+
+        <!--Scrolling Dots under slideshow-->
+        <div class="Dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!--End Scrolling Dots-->
+
+        <script src="JS/Basic_JavaScript_9.js"></script> 
+    </body>
+</html>
